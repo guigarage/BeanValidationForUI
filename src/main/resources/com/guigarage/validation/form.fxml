@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="12.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="400.0" vgap="12.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40">
+  <columnConstraints>
+    <ColumnConstraints hgrow="NEVER" />
+    <ColumnConstraints hgrow="ALWAYS" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints vgrow="NEVER" />
+    <RowConstraints vgrow="NEVER" />
+    <RowConstraints vgrow="NEVER" />
+      <RowConstraints vgrow="NEVER" />
+      <RowConstraints vgrow="ALWAYS" />
+      <RowConstraints vgrow="NEVER" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="labelForFirstNameTextField" text="First Name:" />
+      <Label fx:id="LabelForLastNameTextField" text="Last Name:" GridPane.rowIndex="1" />
+      <Label fx:id="LabelForActiveCheckBox" text="Active:" GridPane.rowIndex="2" />
+      <Label fx:id="LabelForGenderChoiceBox" text="Gender:" GridPane.rowIndex="3" />
+      <TextField fx:id="firstNameTextField" GridPane.columnIndex="1" />
+      <TextField fx:id="lastNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <CheckBox fx:id="activeCheckBox" mnemonicParsing="false" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="genderChoiceBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <HBox nodeOrientation="RIGHT_TO_LEFT" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="NEVER">
+         <children>
+            <Button fx:id="validateButton" mnemonicParsing="false" text="validate" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="24.0" left="24.0" right="24.0" top="24.0" />
+   </padding>
+</GridPane>

@@ -1,0 +1,4 @@
+.label:invalid {
+    -fx-text-fill: red;
+    -fx-font-weight: bolder;
+}
