@@ -1,4 +1,4 @@
-package com.guigarage.validation;
+package com.guigarage.validation.util;
 
 import com.guigarage.validation.model.FormModel;
 import com.guigarage.validation.model.Gender;

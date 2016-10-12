@@ -1,4 +1,4 @@
-package com.guigarage.validation;
+package com.guigarage.validation.util;
 
 /**
  * Created by hendrikebbers on 12.10.16.

@@ -1,6 +1,6 @@
 package com.guigarage.validation.model;
 
-import com.guigarage.validation.UIGroup;
+import com.guigarage.validation.util.UIGroup;
 
 import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.NotNull;

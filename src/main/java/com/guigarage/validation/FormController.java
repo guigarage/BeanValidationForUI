@@ -1,6 +1,8 @@
 package com.guigarage.validation;
 
 import com.guigarage.validation.model.FormModel;
+import com.guigarage.validation.util.AbstractFormController;
+import com.guigarage.validation.util.UIGroup;
 
 import javax.validation.BeanValidator;
 import javax.validation.BeanValidatorProvider;
@@ -12,7 +14,7 @@ import java.util.Set;
 /**
  * Created by hendrikebbers on 12.10.16.
  */
-public class FormController1 extends AbstractFormController {
+public class FormController extends AbstractFormController {
 
     private BeanValidator<FormModel> validator;
 
